@@ -1,4 +1,4 @@
-<?php include('C:\xampp\htdocs\UniTech/php/contact.php'); ?>
+<?php include('../php/contact.php'); ?>
 <!DOCTYPE html>
 <html>
 
