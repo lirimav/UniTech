@@ -13,6 +13,9 @@
 </head>
 
 <body >
+    <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
+    <div class="site-wrap">
+
     <div class="container">
         <div class="navbar">
             <div class="logo">
@@ -34,7 +37,7 @@
     </div>
             <?php 
 
-                include_once('C:\xampp\htdocs\UniTech/php/config.php');
+                include_once('/php/config.php');
                 if (isset($_POST['submitrg'])) {
                    $username = $_POST['username'];
                    $email = $_POST['email'];
@@ -171,7 +174,7 @@
         }
 
     </script>
-
+    <script src="js/script.js"></script>
 </body>
 
 </html>

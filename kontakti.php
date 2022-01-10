@@ -1,4 +1,4 @@
-<?php include('../php/contact.php'); ?>
+<?php include('/php/contact.php'); ?>
 <!DOCTYPE html>
 <html>
 
@@ -15,6 +15,8 @@
 </head>
 
 <body>
+    <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
+    <div class="site-wrap">
 
     <div class="header" style="background-color: rgb(255, 250, 236);">
         <div class="container">
@@ -147,6 +149,7 @@
             }
         }
     </script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

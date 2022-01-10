@@ -4,6 +4,7 @@
     box-sizing: border-box;
     overflow: visible;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
 }
 html, body {width: auto!important; overflow-x: hidden!important} 
 
@@ -21,6 +22,17 @@ html, body {width: auto!important; overflow-x: hidden!important}
     border-radius: 100px;
 }
 
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    border: 0;
+    z-index: 99;
+    color: white;
+    background-color: #00a4cc;
+    padding: 8px 18px !important;
+  }
 
 #pcja{
     margin-left: 30%;
