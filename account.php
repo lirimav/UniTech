@@ -37,7 +37,7 @@
     </div>
             <?php 
 
-                include_once('/php/config.php');
+                include_once('C:\xampp\htdocs\UniTech/php/config.php');
                 if (isset($_POST['submitrg'])) {
                    $username = $_POST['username'];
                    $email = $_POST['email'];
