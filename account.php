@@ -23,8 +23,7 @@
             </div>
             <nav>
                 <ul id="MenuItems">
-                <label for="searchbar"><i class="fas fa-search" for="searchbar"></i></label>
-                    <input type="text" name="searchbar" placeholder="Search.." id="searchbar">
+                
                     <li><a href="index.html">Home</a></li>
                     <li><a href="products.html">Products</a></li>
                     <li><a href="kontakti.php">Contact</a></li>
@@ -64,7 +63,7 @@
                     ';
                 }
             ?>
-    <div class="account-page">
+    <div class="account-page" style="background-color: white;">
         <div class="container">
             <div class="row">
                 <div class="col-2">

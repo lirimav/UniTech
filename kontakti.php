@@ -18,7 +18,7 @@
     <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
     <div class="site-wrap">
 
-    <div class="header" style="background-color: rgb(255, 250, 236);">
+    <div class="header" style="background-color: white;">
         <div class="container">
             <div class="navbar">
                 <div class="logo">
@@ -26,8 +26,7 @@
                 </div>
                 <nav>
                     <ul id="MenuItems">
-                        <i class="fas fa-search"></i>
-                        <input type="text" name="searchbar" placeholder="Search.." id="searchbar">
+                        
                         <li><a href="index.html">Home</a></li>
                         <li><a href="products.html">Products</a></li>
                         <li><a href="kontakti.php">Contact</a></li>
@@ -50,7 +49,7 @@
         manner and help you understand the problem.
         We won't try to up-sell you on unnecessary services and parts like some larger companies. We only want our
         customers to walk away satisfied and willing to come back any time.</p> -->
-    <div class="background">
+    <div class="background" style="background-color: white;">
         <div class="container1">
             <div class="screen">
                 <div class="screen-header">
